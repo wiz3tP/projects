@@ -1,0 +1,62 @@
+body {
+    font-family: "FIra Sans", sans-serif;
+    background-color:#440586;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: "Young", serif;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #440586;
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    text-transform: lowercase;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myBtn {
+    background-color: #440586;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 9rem;
+}
+
+.myBtn:hover {
+    background-color: rgb(237, 87, 155);
+    color: #fff
+}
+
+.disclaimer {
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: rgb(237, 87, 155);
+    color: #fff;
+}
+
+.disclaimer p {
+    padding:  0.5rem 0.5rem 0 0.5rem;
+}
